@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Document</title>
+    <style>
+        body {
+            padding: 5em;
+        }
+
+        hr {
+            margin: 5em 0;
+        }
+
+        #font-change, #content-toggle {
+            cursor: pointer;
+        }
+
+        .frog, .carrot {
+            font-size: 32px;
+            cursor: pointer;
+            text-shadow: 0 0 10px forestgreen;
+        }
+
+        .blue-border {
+            border: 2px blue solid;
+
+    </style>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Molle:ital@1&family=Quantico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+</head>
+<body>
+
+<h1 id="add-borders">Add borders to all elements</h1>
+
+<hr/>
+
+<div>
+    <p>
+        <i class="carrot fas fa-carrot"></i>
+        <i class="carrot fas fa-carrot"></i>
+        <i class="carrot fas fa-carrot"></i>
+    </p>
+</div>
+
+<hr/>
+
+<button id="codeup-btn">Jump to Curriculum</button>
+
+<hr/>
+
+<div>
+    <p>
+        <i class="frog fas fa-frog checked" data-value="1"></i>
+        <i class="frog fas fa-frog checked" data-value="2"></i>
+        <i class="frog fas fa-frog checked" data-value="3"></i>
+    </p>
+    <p>You last double-clicked frog number: <span id="review-result"></span> </p>
+</div>
+
+<hr/>
+
+<div>
+    <label for="color-input">Background Color: </label>
+    <input type="text" id="color-input">
+    <button id="change-bg-from-input">Change Background</button>
+</div>
+
+<hr/>
+
+<button id="prepend-to-ul">Prepend to the ul</button>
+<ul id="prepend-to-me"></ul>
+
+<hr/>
+
+<h1 id="message">Hello, World!</h1>
+<button id="change-message">Change message</button>
+
+<hr/>
+
+<ul id="content-toggle">
+    <li>List Item 1</li>
+    <li>List Item 2</li>
+    <li>List Item 3</li>
+    <li>List Item 4</li>
+</ul>
+
+<hr/>
+
+<ul id="font-change">
+    <li>text</li>
+    <li>text</li>
+    <li>text</li>
+</ul>
+
+<hr/>
+
+<input id="input">
+<button id="add-to-number">Add to Output</button>
+<p id="output">16</p>
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+<script src="./js-exercises/DOM-Bianca-7-26 to 8-1.js/"></script>
+
+</body>
+</html>
